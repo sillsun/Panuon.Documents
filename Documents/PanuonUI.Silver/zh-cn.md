@@ -104,6 +104,10 @@ PanuonUI.Silver中集成了FontAwesome（v4.7）字体。你可以在你的项�
 <TextBlock  FontFamily="{StaticResource FontAwesome}"
             Text="&#xf1b2;">
 ```
+C#代码中使用该字体：
+```
+  var FontAwesome = new System.Windows.Media.FontFamily(new Uri("pack://application:,,,/Panuon.UI.Silver;component/Resources/Resource.xaml"), "/Panuon.UI.Silver;component/Resources/#fontawesome");
+```
 
 Icon代码可以在 http://www.fontawesome.com.cn/cheatsheet/ 中查找和复制。    
 
